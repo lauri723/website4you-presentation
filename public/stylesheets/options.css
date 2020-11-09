@@ -1,0 +1,126 @@
+.options {
+    /* min-height: calc(100vh - 60px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 8%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: var(--font-size-four);
+    color: var(--color-four);
+}
+
+.bubble-options {
+	height: auto;
+	width: 90%;
+	min-width: 1110px;
+	background: var(--color-five);
+    display: block;
+    margin: auto;
+    margin-top: none;
+    margin-bottom: 7em;
+	border-radius: 20px;
+	font-size: .9em;
+    text-align: center;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2),
+      -12px -12px 10px rgba(0, 0, 0, 0.2);
+}
+
+div.bubble.bubble-options  {
+    margin: auto;
+}
+
+.card-options {
+    margin: 3em 5em;
+    margin-bottom: 2em;
+    padding: 3em 3em 1em 3em;
+}
+
+footer {
+    color: var(--color-four);
+    background-color: var(--color-background-four);
+    width: 100%; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: var(--font-size-ten);
+}
+
+footer a {
+   color: var(--color-one); 
+   font-size: var(--font-size-eight);
+}
+
+footer a:hover {
+    color: var(--color-six);
+}
+
+footer .fas, .fab {
+    color: var(--color-one); 
+    font-size: var(--font-size-five);
+    padding-bottom: 10px;
+    align-items: flex-start;
+    text-shadow: 2px 2px var(--color-two);
+}
+
+@media only screen and (max-width: 1030px) {
+    div.bubble.bubble-options  {
+        min-width: 900px;
+        margin: 5em auto 4em;
+    }
+    .card-options {
+        margin: 1em;
+        margin-bottom: 2em;
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    div.bubble.bubble-options  {
+        min-width: 700px;
+        margin: auto;
+    }
+    footer a {
+        color: var(--color-one); 
+        font-size: var(--font-size-nine);
+     }
+     footer a:hover {
+         color: var(--color-six)
+     }
+     
+     footer .fas, .fab {
+         font-size: var(--font-size-seven);
+         padding-bottom: 0px;
+         text-shadow: 1px 1px var(--color-two);
+     }
+}
+
+@media only screen and (max-width: 768px) {
+    div.bubble.bubble-options  {
+        min-width: 550px;
+    }
+    .watch {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.bubble.bubble-options {
+        min-width: 480px;
+        font-size: .8em;
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div.bubble.bubble-options {
+        min-width: 350px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    div.bubble.bubble-options {
+        min-width: 230px;
+        font-size: .7em;
+    }
+}

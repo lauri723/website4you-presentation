@@ -1,0 +1,43 @@
+<%- include('../partials/head.ejs') %>
+<body class="articles">
+    <%- include('../partials/header.ejs') %>
+    <%- include('../partials/scroll.ejs') %>
+    <div class="inner-container">
+      <div class="text-center pb-5">
+        <a class="btn btn-primary watch mx-3 px-3" href="/included">What's Included</a>  
+        <a class="btn btn-primary watch mx-3 px-3" href="/vidPresentation">Watch a Video Presentation</a>  
+        <a class="btn btn-primary watch mx-3 px-3" href="mailto:lauri@lovelywebdesigns.com?
+        subject=Contact">Contact Us</a> 
+      </div>
+      <%- include('../partials/errorMessage.ejs') %>
+      <%- include('../partials/headerArticles') %>
+      <div>
+        <a class="btn btn-primary btn-album article-details-topic-button" href="/topics/<%= article.topic.slug %>">Topic: <%= article.topic.name %></a>
+      </div> 
+      <div class="row">
+        <div class="col-12">
+          <div class="card card-article-show my-4">
+            <div class="card-body-article-show text-center my-3">
+              <h1 class="card-title-article-show"><%= article.title %></h1>
+              <div class="card-subtitle text-muted mb-2">
+                <em><%= article.createdAt.toLocaleDateString() %></em>
+              </div> 
+              <p class="card-text card-article-desc pb-3"><%= article.description %></p>
+              <div class="card-article-markdown pb-3"><%- article.sanitizedHtml %></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <a class="btn btn-primary article-details-topic-button" href="/articles">All Stories</a>
+      </div>
+      <div class="btn-article-show">
+        <% if(currentUser){ %>
+          <a class="btn btn-article-edit btn-primary" href="/articles/<%= article.id %>/edit">Edit</a>
+          <%- include('../partials/deleteForm', { url: `/articles/${article.id}` }) %>
+        <% } %>
+      </div>
+    </div>
+
+<%- include('../partials/footer.ejs') %>
+  
