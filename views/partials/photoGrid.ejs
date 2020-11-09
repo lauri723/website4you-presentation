@@ -1,5 +1,3 @@
-
-
 <% photoCoverClass = locals.small ? 'photo-cover-small' : '' %>
 <% photoGridClass = locals.small ? 'photo-grid-small' : '' %>
 <div class="photo-grid <%= photoGridClass %>">
@@ -12,13 +10,14 @@
           </a>
         </div>
         <div class="card-body">
-          <h3 class="card-title"><%= photo.title %></h3>
+          <h4 class="card-title"><%= photo.title %></h4>
+        </div>
+        <div class="card-footer">
           <a href="/photos/<%= photo.slug %>" class="btn btn-primary">See More</a>
         </div>
       </div>
     </div>
   <% }) %>
 </div>
-
 
 

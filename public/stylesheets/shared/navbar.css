@@ -22,7 +22,7 @@ btn:focus, a:focus {
 
 #navbarNav a.nav-link {
     color: var(--color-five);
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 600;
     text-shadow: 1px 1px var(--color-six);
 }
