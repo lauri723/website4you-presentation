@@ -3,8 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-bottom: 8%;
+    margin: 3% auto 8% auto;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: var(--font-size-four);
@@ -92,6 +91,11 @@ footer .fas, .fab {
     align-items: flex-start;
     text-shadow: 2px 2px var(--color-two);
 }
+
+footer .fas:hover, .fab:hover {
+    color: var(--color-six);
+}
+
 
 @media only screen and (max-width: 1030px) {
     div.bubble.bubble-included  {

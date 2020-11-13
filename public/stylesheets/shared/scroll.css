@@ -1,9 +1,11 @@
 body {
-    padding-top: 75px;  
+    padding-top: 9%;
+    padding-bottom: 9%;
+    /* padding-top: 75px;   */
    }
    
    .scroll {
-    height: 60px;  
+    height: 80px;  
     overflow: hidden;
     position: relative;
    }
@@ -47,3 +49,10 @@ body {
     transform: translateX(-100%); 
     }
    }
+
+   @media only screen and (max-width: 1200px) {
+       body {
+           padding-top: 15%;
+       }
+   }
+

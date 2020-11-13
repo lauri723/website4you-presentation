@@ -1,3 +1,6 @@
+body.topics {
+  margin-bottom: 3em;
+}
 .topic-row {
     display: flex;
     justify-content: space-between;

@@ -64,6 +64,11 @@ footer .fas, .fab {
     text-shadow: 2px 2px var(--color-two);
 }
 
+footer .fas:hover, .fab:hover {
+    color: var(--color-six);
+}
+
+
 @media only screen and (max-width: 1030px) {
     div.bubble.bubble-options  {
         min-width: 900px;

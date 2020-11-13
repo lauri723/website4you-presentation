@@ -1,8 +1,13 @@
 :root {
-  --color-background-one: #86a8e7;
+  --color-background-one: #c5c5db;
+  --color-background-two: #e6e6ef;
+  --color-background-three: #e6e6ef;
+  --color-background-four: #c5c5db;
+  /* home-name/nav/header/buttons */
+  /* --color-background-one: #86a8e7;
   --color-background-two: #dde6f8;
   --color-background-three: #e5faf9;
-  --color-background-four: #91eae4;
+  --color-background-four: #91eae4; */
   /* home-name/nav/header/buttons */
   --color-one: #ff00cc;
   --color-two: #99007a;

@@ -125,17 +125,21 @@ footer .fas, .fab {
     text-shadow: 2px 2px var(--color-two);
 }
 
+footer .fas:hover, .fab:hover {
+    color: var(--color-six);
+}
+
+
 @media only screen and (max-width: 1199px) {
     .bubble {
         min-width: 500px;
         height: auto;
-        /* margin-top: 5em; */
         padding: 1em;
         font-size: .7em;
     }
     .pointer {
         left: calc(0.5vw + 335px);
-        bottom: calc(0.5vh - 100px);
+        /* bottom: calc(0.5vh - 100px); */
     }
     #memoji-index {
         padding-top: 0;
@@ -175,15 +179,10 @@ footer .fas, .fab {
      }
 }
 
-@media only screen and (max-width: 767px) {
-    /* .pointer {
-        left: calc(0.5vw + 125px);
-        bottom: calc(0.5vh + 15px);
-        transform: rotate(45deg);
-    } */
-    /* .bubble {
-        margin-top: 4em;
-    } */
+@media only screen and (max-width: 768px) {
+    div.bubble {
+        margin-top: 3em;
+    }
     .watch {
         margin-bottom: 1em;
     }
@@ -192,9 +191,6 @@ footer .fas, .fab {
         bottom: 2.5em;
         left: 0em;
     }
-    /* #memoji {
-        bottom: 2em;
-    } */
 }
 
 @media only screen and (max-width: 500px) {
@@ -217,8 +213,6 @@ footer .fas, .fab {
     }
     .pointer {
         left: calc(0.5vw + 55px);
-        /* bottom: calc(0.5vh + 17px);
-        transform: rotate(45deg); */
     }
 }
 

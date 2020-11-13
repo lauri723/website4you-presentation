@@ -4,8 +4,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3%;
-  /* margin-top: 3%; */
-  padding-top: 2%;
+  margin-top: 3%;
+  /* padding-top: 2%; */
 }
 
 .header-nav ul {
@@ -26,9 +26,9 @@
     /* font-family: 'PT Serif', serif; */
   text-decoration: none;
   color: var(--color-one);
-  font-size: var(--font-size-two);
+  font-size: var(--font-size-three);
   padding: 3rem;
-  text-shadow: 1px 1px 2px var(--color-two);
+  text-shadow: 1px 1px 1px var(--color-two);
 }
 
 .header-nav li a:hover, .header-title:hover {
