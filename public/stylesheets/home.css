@@ -12,7 +12,7 @@
     font-family: 'Parisienne', cursive;
     color: var(--color-one);
     font-size: var(--font-size-one);
-    text-shadow: 2px 2px 3px var(--color-two);
+    text-shadow: 1px 1px 2px var(--color-two);
 }
 
 footer {
@@ -58,7 +58,7 @@ footer .fas:hover, .fab:hover {
         display: flex;
         justify-content: center;
         padding-top: 1em;
-        text-shadow: none;
+        text-shadow: 1px 1px var(--color-two);
     }
     ul.bio-respond {
         display: flex;
@@ -90,7 +90,7 @@ footer .fas:hover, .fab:hover {
 
 @media only screen and (max-width: 595px) {
     #title-name {
-        font-size: var(--font-size-six);
+        font-size: var(--font-size-three);
         display: flex;
         justify-content: center;
         align-items: center;
