@@ -43,8 +43,9 @@
 }
 
 .bubble-intro-one span {
-    font-size: 1.4em;
+    font-size: 1.6em;
     line-height: 1em;
+    letter-spacing: 2px;
 }
 
 .bubble-intro span, .email {
