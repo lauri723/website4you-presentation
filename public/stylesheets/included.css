@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3% auto 8% auto;
+    /* margin: auto; */
+    /* margin: 3% auto 8% auto; */
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: var(--font-size-four);
