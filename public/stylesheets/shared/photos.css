@@ -78,7 +78,7 @@ div.card-footer {
 .btn-show {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 2em;
 }
 
@@ -91,26 +91,18 @@ div.card-footer {
   max-width: 600px;
 }
 
-
-.btn.btn-new, .btn.btn-edit {
-  margin-right: 2em;
-}
-
 .btn-new-edit {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em 0em 8em 0em;
 }
 
 
 @media only screen and (max-width: 1200px) {
   .card-show {
     width: 80%;
-  }
-  .btn-new-edit {
-    margin-right: 4em;
   }
 }
 

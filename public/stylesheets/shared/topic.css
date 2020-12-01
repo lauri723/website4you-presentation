@@ -7,6 +7,16 @@ body.topics {
     margin: auto;
     margin-bottom: 1rem;
   }
+
+  .form-item-topic {
+    display: flex;
+    flex-direction: column;
+    margin: auto 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 50%;
+    margin: auto;
+  }
   
   .topic-name {
     font-size: 1.5rem;
@@ -25,7 +35,7 @@ body.topics {
   .btn-topic {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 2em;
   }
   
@@ -40,7 +50,8 @@ body.topics {
 
   .btn-topic-new-edit {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 2em;
   }
@@ -50,8 +61,12 @@ body.topics {
     flex-direction: row;
   }
   
-  @media only screen and (max-width: 992px) {
-    .form-topic, .form-topic-search, .btn-topic-new {
+  @media only screen and (max-width: 1024px) {
+    .form-item-topic {
+      width: 90%;
+    }
+    .form-topic, .form-topic-search {
+      width: 90%;
       margin: auto;
     }
   }

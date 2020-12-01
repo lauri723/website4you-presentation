@@ -3,7 +3,6 @@
   flex-direction: column;
   flex-grow: 1;
   flex-basis: 0;
-  /* margin: auto 1rem; */
   width: 50%;
   margin: auto;
 }
@@ -58,7 +57,6 @@
 
 .filepond--panel-root {
   background-color: var(--color-six);
-  /* border: 1px solid var(--form-input-border-color); */
 }
 
 .filepond--drop-label {
@@ -67,7 +65,11 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .form-item-photo, .form-item-student, .form-item-schedule {
+  .form-item-photo, .form-item-article {
     width: 90%;
+  }
+  .form-row-filepond {
+    width: 90%;
+    margin: auto;
   }
 }
