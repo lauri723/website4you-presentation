@@ -58,9 +58,9 @@
 }
 
 @media only screen and (max-width: 710px) {
-  .header-nav li a  {
+  /* .header-nav li a  {
     font-size: var(--font-size-five);
-  }
+  } */
   .header-nav {
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -69,6 +69,6 @@
 
 @media only screen and (max-width: 590px) {
   .header-nav li a  {
-    font-size: var(--font-size-seven);
+    font-size: var(--font-size-three);
   }
 }

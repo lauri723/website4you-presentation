@@ -1,7 +1,7 @@
 .bg-custom {
     background-color: var(--color-background-one);
     height: 9%;
-    width: 100%;
+    max-width: 100vw;
 }
 
 .navbar-toggler-icon {
@@ -21,7 +21,7 @@ btn:focus, a:focus {
 }
 
 #navbarNav a.nav-link {
-    color: var(--color-six);
+    color: var(--color-three);
     font-size: 1.6em;
     font-weight: 600;
 }
@@ -33,7 +33,7 @@ btn:focus, a:focus {
 @media only screen and (max-width: 992px) {
     #navbarNav a.nav-link {
         background-color: var(--color-background-one);
-        width: 100%
+        /* width: 100% */
     }
     .navbar {
         padding: .5rem 0rem;

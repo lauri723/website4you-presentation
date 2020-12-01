@@ -1,9 +1,15 @@
 .form-item-photo, .form-item-article {
   display: flex;
   flex-direction: column;
-  margin: auto 2rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  /* margin: auto 1rem; */
   width: 50%;
   margin: auto;
+}
+
+.form-item-no-grow {
+  flex-grow: 0;
 }
 
 .form-item-album, .form-item-topic {
@@ -60,3 +66,8 @@
   font-size: inherit;
 }
 
+@media only screen and (max-width: 1024px) {
+  .form-item-photo, .form-item-student, .form-item-schedule {
+    width: 90%;
+  }
+}

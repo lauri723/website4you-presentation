@@ -18,7 +18,7 @@
 footer {
     color: var(--color-four);
     background-color: var(--color-background-four);
-    width: 100%;
+    width: 100vw;
     position: fixed;
     bottom: 0;
     left: 0;
