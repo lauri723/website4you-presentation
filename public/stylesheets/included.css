@@ -47,6 +47,12 @@ p.section {
     margin-bottom: 0rem;
 }
 
+span.value {
+    color: var(--color-one);
+    font-size: .65em;
+
+}
+
 p.price {
     color: var(--color-one);
     font-size: 1.4em;
