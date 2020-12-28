@@ -131,7 +131,7 @@ footer .fas:hover, .fab:hover {
 }
 
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1200px) {
     .bubble {
         min-width: 500px;
         height: auto;
