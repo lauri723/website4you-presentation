@@ -57,10 +57,10 @@ footer a:hover {
 }
 
 footer .fas, .fab {
-    color: var(--color-one); 
     font-size: var(--font-size-five);
     padding-bottom: 10px;
-    align-items: flex-start;
+    padding-left: 5px;
+    padding-right: 5px;
     text-shadow: 2px 2px var(--color-two);
 }
 
