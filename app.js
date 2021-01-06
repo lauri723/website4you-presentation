@@ -68,4 +68,4 @@ if(process.env.Node_ENV !== 'production') {
   app.use('/articles', articleRouter)
   app.use('/users', userRouter)
   
-  app.listen(process.env.PORT || 3000)
+  app.listen(process.env.PORT || 4000)
